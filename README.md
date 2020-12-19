@@ -28,9 +28,9 @@ One final interesting finding from analyzing Seattle city data was in the simila
 
 ### Neighborhood Analysis
 
-After modeling the data using ARMA, ARIMA, LSTM, and Regression for Seattle city as a whole, there was no significant predicting capacity for home prices. So, the project scope was extended to model each neighborhood in the city separately. After doing a standard deviation on the median price data, five least and most volatile neighborhoods werre picked to analyse.
+After modeling the data using ARMA, ARIMA, LSTM, and Regression for Seattle city as a whole, there was no significant predicting capacity for home prices. So, the project scope was extended to model each neighborhood in the city separately. After doing a standard deviation on the median price data, five least and most volatile neighborhoods were picked to analyze.
 
-The neighborhoods analysed were:
+The neighborhoods analyzed were:
 
 Least Volatile:
 
@@ -48,7 +48,7 @@ Most Volatile:
 4. Seattle Central District
 5. Denny Blaine
 
-After doing a balanced random forest features importances analysis, there were interesting deductions made:
+After doing a Balanced Random Forest features importance analysis, there were interesting deductions made:
 
 Most important features for
 

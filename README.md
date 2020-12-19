@@ -14,7 +14,7 @@ Using monthly sales data from [RedFin](https://www.redfin.com/news/data-center/)
 
 The bulk of our research was done in Data Exploration by running a variety of models to find correlations and determine if there was any meaningful predicatability. As we discovered, there was very little correlation between the majority of measures, and the few that existed were self-referential.
 
-![Correlation Map](Images/correlation.png)
+![](Images/correlation.png)
 
 ### Seattle City Analysis 
 

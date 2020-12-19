@@ -16,9 +16,19 @@ The bulk of our research was done in Data Exploration by running a variety of mo
 
 ![Correlation Map](Images/correlation.png)
 
+### Seattle City Analysis 
+
+As a first step, analysis was done soley on Seattle city data (non-neighborhood specific).  Predictive modeling was done using ARMA, ARIMA, LSTM RNN, Linear Regression, Balanced Random Forest, and Random Forest models.  All models utilized median home sale price data as the target variable.  On models that required training and testing, a 70/30 train/test split was utilized.  As the data analyzed was time series data, the data was not shuffled to ensure model accuracy and consistency.  
+
+After compiling and running all models it was found that no models offered strong predictive capabilities.  When analyzing the features importances of the Balanced Random Forest and Randome Forest models it was interesting to notice differences.  The top two features for the Balanced Random Forest model were new listings and inventory, whereas the top two features for the Random Forest model were inventory and average sale to list.  Images of model predictions vs. actual values, features importance graphs, and numerous other visual graphics can be found in the Images folder for reference.  
+
+One final interesting finding from analyzing Seattle city data was in the similarities and differences of the predictions of the LSTM, Linear Regression, Balanced Random Forest, and Random Forest models.  As can be seen via the image below, three of the four models predicted similarly.  The LSTM model predicted the most accurately, but all predictions hovered around $700K.  
+
+![Correlation Map](Images/all_model_predictions.png)
+
 ### Neighborhood Analysis
 
-After modelling the data using ARMA, ARIMA, LSTM, and Regression for Seattle city as a whole, there was no significant predicting capacity for home prices. So, the project scope was extended to model each neighborhood in the city separately. After doing a standard deviation on the median price data, five least and most volatile neighborhoods werre picked to analyse.
+After modeling the data using ARMA, ARIMA, LSTM, and Regression for Seattle city as a whole, there was no significant predicting capacity for home prices. So, the project scope was extended to model each neighborhood in the city separately. After doing a standard deviation on the median price data, five least and most volatile neighborhoods werre picked to analyse.
 
 The neighborhoods analysed were:
 

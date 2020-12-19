@@ -24,7 +24,7 @@ After compiling and running all models it was found that no models offered stron
 
 One final interesting finding from analyzing Seattle city data was in the similarities and differences of the predictions of the LSTM, Linear Regression, Balanced Random Forest, and Random Forest models.  As can be seen via the image below, three of the four models predicted similarly.  The LSTM model predicted the most accurately, but all predictions hovered around $700K.  
 
-![](Images/all_model_predictions.png)
+![](Images/all_model_predictions.PNG)
 
 ### Neighborhood Analysis
 

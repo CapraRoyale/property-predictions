@@ -14,7 +14,7 @@ Using monthly sales data from [RedFin](https://www.redfin.com/news/data-center/)
 
 The bulk of our research was done in Data Exploration by running a variety of models to find correlations and determine if there was any meaningful predicatability. As we discovered, there was very little correlation between the majority of measures, and the few that existed were self-referential.
 
-![](Images/correlation.png)
+![Correlation Map](Images/correlation.png)
 
 ### Seattle City Analysis 
 
@@ -24,7 +24,7 @@ After compiling and running all models it was found that no models offered stron
 
 One final interesting finding from analyzing Seattle city data was in the similarities and differences of the predictions of the LSTM, Linear Regression, Balanced Random Forest, and Random Forest models.  As can be seen via the image below, three of the four models predicted similarly.  The LSTM model predicted the most accurately, but all predictions hovered around $700K.  
 
-![Correlation Map](Images/all_model_predictions.png)
+![](Images/all_model_predictions.png)
 
 ### Neighborhood Analysis
 
